@@ -47,7 +47,7 @@ The CTI Dashboard is a web application that pulls data from public Cyber Threat 
 
 ```bash
 git clone https://github.com/SahilWadhwani/CTI-Dashboard-Application.git
-cd cti-dashboard
+cd CTI-Dashboard-Application
 ```
 
 #### Step 2: Backend Setup:
