@@ -11,7 +11,7 @@ The CTI Dashboard is a web application that pulls data from public Cyber Threat 
 * **Visualization**: Leaflet (for maps)
 * **Data Fetching**: Axios
 * **Styling**: CSS
-* **API Source**: Open Threat Exchange (OTX)
+* **CTI API Source**: Open Threat Exchange (OTX)
 
 ###  Features
 
