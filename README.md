@@ -1,10 +1,10 @@
-## 🌐 Cyber Threat Intelligence (CTI) Dashboard
+##  Cyber Threat Intelligence (CTI) Dashboard
 
-### 📑 Project Overview
+###  Project Overview
 
 The CTI Dashboard is a web application that pulls data from public Cyber Threat Intelligence (CTI) sources and displays it in a visually meaningful way.
 
-### 💻 Tech Stack
+###  Tech Stack
 
 * **Backend**: Node.js, Express
 * **Frontend**: React.js, React Leaflet
@@ -13,7 +13,7 @@ The CTI Dashboard is a web application that pulls data from public Cyber Threat 
 * **Styling**: CSS
 * **API Source**: Open Threat Exchange (OTX)
 
-### ⚙️ Features
+###  Features
 
 #### Data Retrieval:
 
@@ -30,13 +30,13 @@ The CTI Dashboard is a web application that pulls data from public Cyber Threat 
 
 #### Automatic Refresh:
 
-* Refresh button to update the data manually.
+* Refresh button to update the data manually without reloading the entire page.
 
 #### Responsive UI:
 
 * Clean and intuitive dashboard layout.
 
-### 🚀 Installation and Setup
+###  Installation and Setup
 
 #### Prerequisites:
 
@@ -84,25 +84,25 @@ npm start
 
 Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-### 📊 Usage Instructions
+###  Usage Instructions
 
 1. Open the dashboard.
 2. Use the filter dropdowns to filter data by Indicator Type or Reputation.
 3. Click the Refresh Data button to fetch the latest data.
 4. The map will display the location based on the IP's latitude and longitude.
 
-### 🗺️ Example Output
+###  Example Output
 
 ![image](https://github.com/user-attachments/assets/a7e81e77-ffd9-4bb9-9c55-6196b69dc0f7)
 
 
-### 🛠️ Troubleshooting
+###  Troubleshooting
 
 * **Backend not running**: Ensure that the backend server is running on port 5000.
 * **Map not displayed**: Make sure the Leaflet library is installed correctly.
 * **CORS Issues**: Double-check the proxy settings in the frontend.
 
-### 📂 Project Structure
+###  Project Structure
 
 ```
 cti-dashboard/
@@ -121,16 +121,8 @@ cti-dashboard/
 └── README.md
 ```
 
-### 💡 Future Enhancements
+###  Future Enhancements
 
 * **Integrating More CTI Sources**: Add data from AbuseIPDB, MISP, etc.
 * **Advanced Filtering**: Allow users to filter based on country or ASN.
 
-### 📝 License
-
-This project is licensed under the MIT License.
-
-### 🌟 Acknowledgments
-
-* AlienVault OTX for providing public CTI data.
-* React Leaflet for interactive mapping.
