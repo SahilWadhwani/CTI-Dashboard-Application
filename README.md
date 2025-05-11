@@ -65,6 +65,7 @@ Create a `.env` file in the backend folder with the following content:
 PORT=5000
 OTX_API_KEY=YOUR_API_KEY
 ```
+Visit https://otx.alienvault.com/ for API key.
 
 #### Step 4: Start the Backend Server:
 
